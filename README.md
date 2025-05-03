@@ -2,7 +2,7 @@
 
 A responsive "Coming Soon" landing page built with **HTML**, **CSS**, and **JavaScript**. This project is based on the [Frontend Mentor](https://www.frontendmentor.io/) challenge: **Base Apparel Coming Soon**.
 
-![Screenshot]()
+![Screenshot](chrome-extension://fdpohaocaechififmbbbbbknoalclacl/capture.html?id=14&url=http%3A%2F%2F127.0.0.1%3A5500%2Findex.html)
 
 ## 🚀 Live Preview
 
