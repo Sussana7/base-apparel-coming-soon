@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+}
+
+main {
+  background-image: url(images/bg-pattern-desktop.svg);
+  /* background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 4rem;
+  min-height: 100vh;
+}
+
+/****** TEXT CONTAINER ******/
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem 3rem;
+  flex: 1;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: hsl(0, 6%, 24%);
+}
+
+h1 strong {
+  color: hsl(0, 36%, 70%);
+  font-weight: 200;
+}
+
+p {
+  background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  line-height: 1.2;
+}
+
+.img-container {
+  flex: 1;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/****** BUTTON STYLES ******/
+
+form {
+  position: relative; /* This allows absolute positioning of the button inside */
+  display: flex;
+  max-width: 100%;
+}
+
+input[type="email"] {
+  flex: 1;
+  padding: 1rem 1.5rem;
+  border: 1px solid hsl(0, 36%, 70%);
+  border-radius: 2rem;
+  font-size: 1rem;
+  outline: none;
+}
+
+button {
+  position: absolute; /* Positions the button on top of the input */
+  right: 0; /* Aligns the button to the far right */
+  top: 0; /* Aligns top of the button with input */
+  bottom: 0; /* Stretches the button height to match input */
+  background-color: hsl(0, 93%, 68%);
+  border: none;
+  padding: 0 1.5rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: hsl(0, 93%, 70%);
+}
+
+button img {
+  width: 12px;
+  height: auto;
+}
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
